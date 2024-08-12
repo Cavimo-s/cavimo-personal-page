@@ -1,9 +1,6 @@
 name: CI
 
 on:
-    push:
-        branches:
-            - main # Or the branch you want to trigger the workflow on
     pull_request:
         branches:
             - main # Or the branch you want to trigger the workflow on
